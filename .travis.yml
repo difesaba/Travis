@@ -2,10 +2,8 @@ language: node_js
 
 node_js:
 - node
-- 'lts/*'
 
 script:
-  - node app.js
   - npm test
 
 cache: npm
