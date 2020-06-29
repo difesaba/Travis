@@ -1,5 +1,5 @@
 
-install: travis_wait 30 mvn install
+install: travis_wait mvn install
 language: node_js
 
 node_js:
@@ -13,6 +13,6 @@ script:
   - npm test
   
 
-
 cache: npm
 
+ 
