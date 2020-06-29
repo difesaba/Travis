@@ -9,5 +9,8 @@ node_js:
 script:
   - node app.js
   - npm test
+  
 
 cache: npm
+
+install: travis_wait mvn install
